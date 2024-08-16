@@ -8,3 +8,13 @@ elif (b>=c):
     print("second Number is largest");
 else :
     print("third Number is largest"); 
+
+
+num = int(input("Enter Your Number : "));
+
+rem = num % 2
+
+if(rem==0):
+    print("number is Even");
+else :
+    print("ODD")  
