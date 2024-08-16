@@ -18,3 +18,12 @@ if(rem==0):
     print("number is Even");
 else :
     print("ODD")  
+
+
+
+
+def convertor(Usd_vel):
+    INR_vel = Usd_vel * 83
+    print(Usd_vel, "USD =" , INR_vel, "INR");
+
+convertor(int(input("enter USD = ")));
