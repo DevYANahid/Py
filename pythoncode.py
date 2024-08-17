@@ -27,3 +27,13 @@ def convertor(Usd_vel):
     print(Usd_vel, "USD =" , INR_vel, "INR");
 
 convertor(int(input("enter USD = ")));
+
+
+def ADD(num):
+    EVEN_NUM = num % 2
+    if(EVEN_NUM==0):
+        print(num, "is Even" );
+    else:
+        print(num, "is ADD");
+    
+ADD(int(input("enter a number =")));
