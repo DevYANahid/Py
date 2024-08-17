@@ -37,3 +37,13 @@ def ADD(num):
         print(num, "is ADD");
     
 ADD(int(input("enter a number =")));
+
+
+#for LOOP
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print (x)
+    if x=="banana":
+        break
+
